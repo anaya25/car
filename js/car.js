@@ -1,6 +1,6 @@
 AFRAME.registerComponent("car-model" , {
     schema:{
-        modelRef: { type: "string", default: "../assets/Car_cartoon.gltf" },
+        modelRef: { type: "string", default: "../assets/source/Car_cartoon.gltf" },
     clickCounter: { type: "number", default: 0 }
     },
 
